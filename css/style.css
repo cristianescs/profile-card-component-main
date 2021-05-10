@@ -22,9 +22,8 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-size: 60%, 60%;
-  background-position: -30% 300%, 120% -270%;
-  background-attachment: fixed, fixed;
+  background-size: 70%, 70%;
+  background-position: -350px -700px, 800px 500px;
 }
 
 .card {
