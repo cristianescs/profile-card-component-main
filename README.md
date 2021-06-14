@@ -32,7 +32,7 @@ Desktop preview:
 
 Mobile preview:
 
-
+![My solution for the Profile card component coding challenge](./design/my-solution-mobile.png)
 
 # My process
 

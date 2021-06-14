@@ -5,6 +5,12 @@
           box-sizing: border-box;
 }
 
+@media screen and (max-width: 800px) {
+  body {
+    background-position: right 80vw bottom 20vh, left 50vw top 50vh;
+  }
+}
+
 body {
   background-color: #19a2ae;
   width: 100%;
@@ -22,11 +28,10 @@ body {
   font-family: 'Kumbh Sans', sans-serif;
   background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
-  background-size: 70%, 70%;
-  background-position: -350px -700px, 800px 500px;
+  background-position: right 52vw bottom 40vh, left 50vw top 50vh;
 }
 
-.card {
+body .card {
   height: 374px;
   width: 350px;
   display: -webkit-box;
@@ -43,18 +48,21 @@ body {
   border-radius: 15px;
 }
 
-.card img {
+body .card hr {
+  margin-top: 15px;
+  width: 100%;
+  border: 1px solid #ebebeb;
+}
+
+body .card img {
   border-top-left-radius: 15px;
   border-top-right-radius: 15px;
 }
 
-.profile {
+body .card .profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -62,58 +70,59 @@ body {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
 }
 
-.profile img {
+body .card .profile img {
   border-radius: 50%;
   margin-top: -50px;
   border: 5px solid white;
 }
 
-.info-card {
+body .card .info-card {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   -webkit-box-orient: vertical;
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
   margin-top: 15px;
   line-height: 1.8;
 }
 
-.info-card span {
+body .card .info-card span {
   font-weight: 400;
   color: #969696;
 }
 
-.info-card h4 {
+body .card .info-card h4 {
   font-weight: 400;
   color: #969696;
 }
 
-.info-profile {
+body .card .info-profile {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
   text-align: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  margin-top: 20px;
   padding-top: 20px;
-  width: 100%;
-  border-top: 1px solid #c9c9c9;
+  width: 80%;
   line-height: 1.5;
 }
 
-.number-info {
+body .card .info-profile .info__number {
   font-weight: bold;
 }
 
-.text-info {
+body .card .info-profile .info__text {
   font-size: 12px;
   color: #969696;
 }
