@@ -26,7 +26,7 @@ body {
           justify-content: center;
   overflow: hidden;
   font-family: 'Kumbh Sans', sans-serif;
-  background-image: url("/images/bg-pattern-top.svg"), url("/images/bg-pattern-bottom.svg");
+  background-image: url("../images/bg-pattern-top.svg"), url("../images/bg-pattern-bottom.svg");
   background-repeat: no-repeat, no-repeat;
   background-position: right 52vw bottom 40vh, left 50vw top 50vh;
 }
